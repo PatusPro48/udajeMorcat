@@ -27,5 +27,5 @@ with open("info.txt", "r", encoding="utf-8") as soubor:
         print(f"{druh_pohlavi} morčete jménem: {jmeno}.")
         print(f"- váží: {hmotnost} g")
         print(f"- datum narození: {datum_narozeni}")
-        print(f"- cena se slevou 10%: {cena_se_slevou} z {cena}")
+        print(f"- cena se slevou 10%: {cena_se_slevou} kč")
         print("-" * 25)
