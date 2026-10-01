@@ -15,3 +15,8 @@ def morcata(info.txt):
             datum_narozeni = casti[2]
             cena = float(casti[3])
             pohlavi = casti[4].lower()
+
+            if pohlavi =='m':
+                druh_pohlavi ="sameček"
+            elif pohlavi =='z':
+                druh_pohlavi="samička"
